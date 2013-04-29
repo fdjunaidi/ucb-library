@@ -1,5 +1,8 @@
 UcbLibrary::Application.routes.draw do
 
+  get "display/main"
+  match "display/main" => 'display#main', :as => 'main'
+
   get "photo/doe"
   match "photo/doe" => 'photo#doe', :as => 'doe'
 
