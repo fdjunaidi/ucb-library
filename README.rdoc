@@ -1,6 +1,7 @@
 == Welcome to UCB Library
 
 A showcase of libraries accessible to undergraduates at UC Berkeley.
+The photos will not be hosted online as of now.
 
 Created by: Febrianto Djunaidi.
 
