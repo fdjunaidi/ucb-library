@@ -24,6 +24,9 @@ UcbLibrary::Application.routes.draw do
   get "photo/wurster"
   match "photo/wurster" => 'photo#wurster', :as => 'wurster'
 
+  get "home/proposal"
+  match "home/proposal" => 'home#proposal', :as => 'proposal'
+
   # See how all your routes lay out with "rake routes"
 
   root :to => 'home#index'

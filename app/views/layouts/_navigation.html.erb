@@ -48,11 +48,13 @@
 		<%= link_to 'VLSB', vlsb_path %>
 	</li>
 	
-  <% if current_page? (wurster_path) %>
+
+	
+  <% if current_page? (proposal_path) %>
 	<li class="active">
   <% else %>
   	<li>
   <% end %>
-		<%= link_to 'Wurster', wurster_path %>
+		<%= link_to 'Project Proposal', proposal_path %>
 	</li>
 </ul>
